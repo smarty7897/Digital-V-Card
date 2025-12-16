@@ -2,60 +2,62 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Prayosha Grain & Pulses Processing</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prayosha Grain & Pulses Processing</title>
 
-<!-- Font Awesome Icons -->
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<!-- Google Material Icons -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded"
+rel="stylesheet" />
 
 <style>
 body{
   margin:0;
-  background:#f2f2f2;
-  font-family:system-ui, -apple-system, BlinkMacSystemFont;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+  background:#f3f3f3;
 }
 
-.phone{
-  max-width:390px;
+.card{
+  max-width:420px;
   margin:20px auto;
   background:#fff;
-  border-radius:34px;
+  border-radius:22px;
   overflow:hidden;
-  box-shadow:0 25px 60px rgba(0,0,0,.25);
+  box-shadow:0 12px 30px rgba(0,0,0,0.15);
 }
 
+/* 🔴 BANNER IMAGE */
 .cover{
   background:url('banner1.jpg') center/cover no-repeat;
-  height:220px;
+  height:190px;
 }
 
+/* 🔴 LOGO */
 .logo{
-  margin-top:-55px;
   text-align:center;
+  margin-top:-50px;
 }
-
 .logo img{
-  width:110px;
-  height:110px;
+  width:96px;
+  height:96px;
   background:#fff;
   border-radius:50%;
-  padding:10px;
-  box-shadow:0 10px 25px rgba(0,0,0,.25);
+  padding:8px;
+  box-shadow:0 6px 18px rgba(0,0,0,0.25);
 }
 
 .content{
-  padding:20px;
+  padding:18px 22px 28px;
   text-align:center;
 }
 
 h1{
-  margin:14px 0 4px;
+  margin:12px 0 4px;
+  color:#c41425;
   font-size:20px;
-  color:#111;
 }
 
-.small{
+h2{
+  margin:0;
   font-size:13px;
   color:#666;
 }
@@ -68,18 +70,13 @@ h1{
 }
 
 .about{
-  margin-top:18px;
+  margin-top:16px;
   font-size:13px;
   color:#555;
   line-height:1.6;
 }
 
-.contact{
-  margin-top:18px;
-  font-size:13px;
-  color:#444;
-}
-
+/* ICON GRID */
 .icons{
   display:grid;
   grid-template-columns:repeat(4,1fr);
@@ -88,33 +85,35 @@ h1{
 }
 
 .icon{
-  padding:16px 0;
+  background:#ffffff;
+  padding:16px 0 14px;
   border-radius:18px;
-  color:#fff;
   text-decoration:none;
+  color:#111;
   font-size:12px;
+  box-shadow:0 6px 16px rgba(0,0,0,0.08);
 }
 
-.icon i{
-  font-size:22px;
+.icon span{
   display:block;
+  font-size:26px;
   margin-bottom:6px;
 }
 
-/* Brand colors */
-.whatsapp{background:#25D366;}
-.call{background:#c41425;}
-.email{background:#555;}
-.web{background:#111;}
-.map{background:#EA4335;}
-.instagram{background:#E4405F;}
-.facebook{background:#1877F2;}
-.youtube{background:#FF0000;}
-.linkedin{background:#0A66C2;}
+/* BRAND COLORS */
+.whatsapp{color:#25D366;}
+.call{color:#c41425;}
+.email{color:#555;}
+.web{color:#111;}
+.map{color:#EA4335;}
+.instagram{color:#E4405F;}
+.facebook{color:#1877F2;}
+.youtube{color:#FF0000;}
+.linkedin{color:#0A66C2;}
 
 .footer{
-  margin:22px 0 6px;
-  font-size:11px;
+  margin-top:20px;
+  font-size:12px;
   color:#777;
 }
 </style>
@@ -122,56 +121,79 @@ h1{
 
 <body>
 
-<div class="phone">
+<div class="card">
 
+  <!-- BANNER -->
   <div class="cover"></div>
 
+  <!-- LOGO -->
   <div class="logo">
     <img src="meera-logo.png" alt="MEERA LOGO">
   </div>
 
+  <!-- CONTENT -->
   <div class="content">
-
     <h1>PRAYOSHA GRAIN & PULSES PROCESSING</h1>
-    <div class="small">Spices Manufacturer</div>
+    <h2>Spices Manufacturer</h2>
+
     <div class="tagline">THE AUTHENTIC TASTE OF PURITY</div>
 
     <div class="about">
-      Prayosha Grain & Pulses Processing is a leading manufacturer
-      of premium quality spices under the trusted <b>MEERA</b> brand,
-      delivering purity, taste and consistency across India.
-    </div>
-
-    <div class="contact">
-      📍 Surat, Gujarat<br>
-      📞 +91 97247 59832<br>
-      ✉️ prayoshaspices@gmail.com
+      Prayosha Grain & Pulses Processing is a trusted manufacturer
+      of premium quality spices under the <b>MEERA</b> brand,
+      delivering purity and authentic taste.
     </div>
 
     <div class="icons">
 
-      <a class="icon whatsapp" href="https://wa.me/919724759832">
-        <i class="fab fa-whatsapp"></i>WhatsApp
+      <a class="icon" href="https://wa.me/919724759832">
+        <span class="material-symbols-rounded whatsapp">chat</span>
+        WhatsApp
       </a>
 
-      <a class="icon call" href="tel:+919724759832">
-        <i class="fas fa-phone"></i>Call
+      <a class="icon" href="tel:+919724759832">
+        <span class="material-symbols-rounded call">call</span>
+        Call
       </a>
 
-      <a class="icon email" href="mailto:prayoshaspices@gmail.com">
-        <i class="fas fa-envelope"></i>Email
+      <a class="icon" href="mailto:prayoshaspices@gmail.com">
+        <span class="material-symbols-rounded email">mail</span>
+        Email
       </a>
 
-      <a class="icon web" href="#">
-        <i class="fas fa-globe"></i>Website
+      <a class="icon" href="#">
+        <span class="material-symbols-rounded web">language</span>
+        Website
       </a>
 
-      <a class="icon map" href="#">
-        <i class="fas fa-location-dot"></i>Map
+      <a class="icon" href="#">
+        <span class="material-symbols-rounded map">location_on</span>
+        Map
       </a>
 
-      <a class="icon instagram" href="#">
-        <i class="fab fa-instagram"></i>Instagram
+      <a class="icon" href="#">
+        <span class="material-symbols-rounded instagram">photo_camera</span>
+        Instagram
       </a>
 
-      <a class="icon
+      <a class="icon" href="#">
+        <span class="material-symbols-rounded facebook">thumb_up</span>
+        Facebook
+      </a>
+
+      <a class="icon" href="#">
+        <span class="material-symbols-rounded youtube">play_circle</span>
+        YouTube
+      </a>
+
+    </div>
+
+    <div class="footer">
+      MEERA Spices • Surat
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
