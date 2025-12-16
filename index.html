@@ -3,9 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MEERA – Prayosha Spices</title>
+<title>Prayosha Grain & Pulses Processing</title>
 
-<!-- FONT AWESOME (ALL ORIGINAL COMPANY LOGOS) -->
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
@@ -13,83 +12,122 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 body{
   margin:0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
-  background:#f3f3f3;
+  background:#f2f2f2;
 }
 .card{
   max-width:420px;
   margin:20px auto;
   background:#fff;
-  border-radius:22px;
+  border-radius:24px;
   overflow:hidden;
-  box-shadow:0 12px 30px rgba(0,0,0,0.15);
+  box-shadow:0 15px 40px rgba(0,0,0,.15);
 }
 .cover{
-  background:url('banner.png') center/cover no-repeat;
-  height:190px;
+  background:linear-gradient(135deg,#c41425,#ff5a5a);
+  height:170px;
 }
 .logo{
   text-align:center;
-  margin-top:-50px;
+  margin-top:-55px;
 }
 .logo img{
-  width:96px;
-  height:96px;
+  width:100px;
+  height:100px;
   background:#fff;
   border-radius:50%;
   padding:8px;
-  box-shadow:0 6px 18px rgba(0,0,0,0.25);
+  box-shadow:0 8px 22px rgba(0,0,0,.25);
 }
 .content{
-  padding:18px 22px 28px;
+  padding:18px 22px 30px;
   text-align:center;
 }
 h1{
-  margin:12px 0 4px;
+  margin:12px 0 2px;
+  font-size:22px;
   color:#c41425;
-  font-size:23px;
 }
-h2{
-  margin:0;
-  font-size:14px;
+.subtitle{
+  font-size:13px;
   color:#666;
+  letter-spacing:1px;
 }
+.tagline{
+  margin-top:6px;
+  font-size:13px;
+  color:#c41425;
+  font-weight:600;
+}
+
+/* WhatsApp */
+.wa-btn{
+  margin-top:22px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:10px;
+  background:#25D366;
+  color:#fff;
+  padding:14px;
+  border-radius:18px;
+  text-decoration:none;
+  font-weight:600;
+  box-shadow:0 10px 25px rgba(37,211,102,.45);
+}
+.wa-btn i{ font-size:22px; }
 
 .icons{
   display:grid;
   grid-template-columns:repeat(4,1fr);
-  gap:16px;
-  margin-top:26px;
+  gap:14px;
+  margin-top:22px;
 }
 .icon{
-  background:#ffffff;
   padding:16px 0 14px;
   border-radius:18px;
-  text-decoration:none;
-  color:#111;
   font-size:12px;
-  box-shadow:0 6px 16px rgba(0,0,0,0.08);
+  color:#fff;
+  text-decoration:none;
 }
 .icon i{
   display:block;
-  font-size:26px;
+  font-size:24px;
   margin-bottom:6px;
 }
 
-/* ORIGINAL BRAND COLORS */
-.fa-whatsapp{ color:#25D366; }
-.fa-instagram{ color:#E4405F; }
-.fa-facebook{ color:#1877F2; }
-.fa-youtube{ color:#FF0000; }
-.fa-linkedin{ color:#0A66C2; }
-.fa-phone{ color:#c41425; }
-.fa-envelope{ color:#c41425; }
-.fa-globe{ color:#c41425; }
-.fa-location-dot{ color:#c41425; }
+.call,.email,.website,.map{background:#c41425;}
+.instagram{background:#E4405F;}
+.facebook{background:#1877F2;}
+.youtube{background:#FF0000;}
+.linkedin{background:#0A66C2;}
+
+.about{
+  margin-top:26px;
+  text-align:left;
+}
+.about h3{
+  font-size:15px;
+  color:#c41425;
+}
+.about p{
+  font-size:13px;
+  color:#555;
+  line-height:1.6;
+}
+
+.contact{
+  margin-top:18px;
+  font-size:13px;
+  color:#444;
+  text-align:left;
+}
+.contact p{ margin:6px 0; }
 
 .footer{
-  margin-top:20px;
+  margin-top:22px;
   font-size:12px;
   color:#777;
+  text-align:center;
 }
 </style>
 </head>
@@ -105,60 +143,55 @@ h2{
   </div>
 
   <div class="content">
-    <h1>Hiren Ribadia</h1>
-    <h2>Director – Prayosha Grain & Pulses Processing</h2>
+
+    <h1>PRAYOSHA GRAIN & PULSES PROCESSING</h1>
+    <div class="subtitle">Spices Manufacturer</div>
+    <div class="tagline">THE REAL FLAVOUR OF PURITY</div>
+
+    <a class="wa-btn" href="https://wa.me/919724759832">
+      <i class="fa-brands fa-whatsapp"></i>
+      Chat on WhatsApp
+    </a>
 
     <div class="icons">
-
-      <a class="icon" href="https://wa.me/919724759832" target="_blank">
-        <i class="fa-brands fa-whatsapp"></i>
-        WhatsApp
+      <a class="icon call" href="tel:+919724759832">
+        <i class="fa-solid fa-phone"></i>Call
+      </a>
+      <a class="icon email" href="mailto:prayoshaspices@gmail.com">
+        <i class="fa-solid fa-envelope"></i>Email
+      </a>
+      <a class="icon website" href="https://www.prayoshaspices.co.in">
+        <i class="fa-solid fa-globe"></i>Website
+      </a>
+      <a class="icon map" href="https://maps.google.com/?q=A1, Gopin Industrial Park, Sevni Road, Segva, Kamrej, Surat 394320">
+        <i class="fa-solid fa-location-dot"></i>Map
       </a>
 
-      <a class="icon" href="tel:+919724759832">
-        <i class="fa-solid fa-phone"></i>
-        Call
-      </a>
+      <a class="icon instagram"><i class="fa-brands fa-instagram"></i>Instagram</a>
+      <a class="icon facebook"><i class="fa-brands fa-facebook"></i>Facebook</a>
+      <a class="icon youtube"><i class="fa-brands fa-youtube"></i>YouTube</a>
+      <a class="icon linkedin"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+    </div>
 
-      <a class="icon" href="mailto:prayoshaspices@gmail.com">
-        <i class="fa-solid fa-envelope"></i>
-        Email
-      </a>
+    <div class="about">
+      <h3>About Company</h3>
+      <p>
+        Prayosha Grain & Pulses Processing is engaged in manufacturing
+        premium quality spices. <b>MEERA</b> is the flagship brand of the company,
+        known for its purity, authentic taste and consistent quality.
+        Under the MEERA brand, the company produces a wide range of spices
+        for domestic and commercial use.
+      </p>
+    </div>
 
-      <a class="icon" href="https://www.prayoshaspices.co.in" target="_blank">
-        <i class="fa-solid fa-globe"></i>
-        Website
-      </a>
-
-      <a class="icon" href="https://maps.google.com/?q=A1, Gopin Industrial Park, Sevni Road, Segva, Kamrej, Surat 394320" target="_blank">
-        <i class="fa-solid fa-location-dot"></i>
-        Map
-      </a>
-
-      <a class="icon" href="https://www.instagram.com/prayoshaspices" target="_blank">
-        <i class="fa-brands fa-instagram"></i>
-        Instagram
-      </a>
-
-      <a class="icon" href="https://www.facebook.com/share/1C16Yk8YS5/" target="_blank">
-        <i class="fa-brands fa-facebook"></i>
-        Facebook
-      </a>
-
-      <a class="icon" href="https://youtube.com/@prayoshagroup4753" target="_blank">
-        <i class="fa-brands fa-youtube"></i>
-        YouTube
-      </a>
-
-      <a class="icon" href="http://www.linkedin.com/in/prayoshagroup" target="_blank">
-        <i class="fa-brands fa-linkedin"></i>
-        LinkedIn
-      </a>
-
+    <div class="contact">
+      <p><b>Address:</b> A1, Gopin Industrial Park, Sevni Road, Segva, Kamrej, Surat – 394320</p>
+      <p><b>Mobile:</b> +91 97247 59832</p>
+      <p><b>Email:</b> prayoshaspices@gmail.com</p>
     </div>
 
     <div class="footer">
-      MEERA Spices • Surat
+      © Prayosha Grain & Pulses Processing • Surat
     </div>
 
   </div>
